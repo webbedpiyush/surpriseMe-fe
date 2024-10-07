@@ -230,7 +230,7 @@ export default function Component() {
     return null;
   }
 
-  const showName = (url: any) => {
+  const showName = (url: string) => {
     const parsedUrl = new URL(url);
     return parsedUrl.hostname.replace(/^www\./, "");
   };
@@ -344,8 +344,9 @@ export default function Component() {
             </h2>
             <p className="text-sm sm:text-base text-gray-300 mb-4 sm:mb-6">
               We have made our best effort to filter out any adult or illegal
-              content; however, we aren't able to review every page we index.
+              content; however, we are unable to review every page we index.
             </p>
+
             <p className="text-sm sm:text-base text-gray-300 mb-4 sm:mb-6">
               Continue at your discretion
             </p>
