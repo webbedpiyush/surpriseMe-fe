@@ -30,12 +30,12 @@ RandomSite is a web application that allows users to visit random websites, prov
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/randomsite.git
+   git clone https://github.com/webbedpiyush/surpriseMe-fe.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd randomsite
+   cd surpriseMe-fe
    ```
 
 3. Install dependencies:
@@ -65,7 +65,7 @@ RandomSite is a web application that allows users to visit random websites, prov
 
 This project uses a generated CSV file (`output.csv`) to provide URLs for the random website selection. If you want to generate new URLs or customize the list, you can use the URL generation script available in this repository:
 
-[URL Generation Script Repository](https://github.com/webbedpiyush/url-generator)
+[URL Generation Script Repository](https://github.com/webbedpiyush/surpriseMe-be)
 
 Follow the instructions in the repository to generate a new `output.csv` file, then replace the existing file in this project's public directory, or you can use cron jobs to update the file automatically.
 
