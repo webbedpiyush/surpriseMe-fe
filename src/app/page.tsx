@@ -183,7 +183,7 @@ export default function Component() {
       window.removeEventListener("resize", handleResize);
       canvas.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []);
+  }, [mousePos.x, mousePos.y]);
 
   const handleVisitRandom = () => {
     setIsSearching(true);
